@@ -9,6 +9,8 @@ help:
 	@echo ""
 	@echo "Welcome to infra-terraform make"
 	@echo ""
+	@echo "make build"
+	@echo ""
 
 build:
 	docker build -t hootware/infrastructure:$(VERSION) -t hootware/infrastructure:latest .

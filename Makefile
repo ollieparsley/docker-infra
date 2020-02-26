@@ -17,4 +17,4 @@ build-infra:
 	cd building && docker build -t hootware/infrastructure:$(VERSION) -t hootware/infrastructure:latest .
 
 build-mysql-backup:
-	cd mysql-backup && docker build -t hootware/mysql-backup:$(VERSION) -t hootware/mysql-backup:latest .
+	cd mysql-backups && docker build -t hootware/mysql-backup:$(VERSION) -t hootware/mysql-backup:latest .
